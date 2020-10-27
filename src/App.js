@@ -8,12 +8,16 @@ import {
   Switch,
   Route,
   Redirect,
+  
+
+  
 } from 'react-router-dom'
 
 import { Navbar } from './app/Navbar'
 
 function App() {
   return (
+
     <Router>
       <Navbar />
       <div className="App">
